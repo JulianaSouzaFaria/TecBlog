@@ -1,26 +1,35 @@
 *{	margin: 0;
-	padding: 0;
-}
+	padding: 0;}
 
 body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #e6e6e6;
-}
+	background: #e6e6e6;}
 
 
 /* inicio formatacao cabecalho */
 .cabecalho {
 	background-color: #f7b600;
 	padding: 40px;
-	text-align: center;
-}
+	text-align: center;}
 
 .logo {
 	padding: 15px;
-	font-size: 1.5em;
-}
+	font-size: 1.5em;}
 
+.links-menu {
+	padding: 5px;
+	font-size: 1.2em;}
+
+.links-menu a:link {color: white; padding: 18px; text-decoration: none;}
+.links-menu a:visited {color: white; padding: 18px; text-decoration: none;}
+.links-menu a:hover {color: #f7b600; background-color: white; text-decoration: underline; text-decoration: none;}
+
+.branco {color: white;}
+
+/* fim formatacao cabecalho */
+
+/* inicio formatacoes gerais */
 h1 {color: #4e4e4e}
 h2 {color: #f7b600}
 h3 {color: #4e4e4e; background-color: #CCC; padding: 15px; text-align: center; font-size: 1.5em;}
@@ -29,31 +38,14 @@ a{text-decoration: none;}
 a:link, a:visited {color: #f7b600}
 a:hover {text-decoration: underline;}
 
-.links-menu {
-	padding: 5px;
-	font-size: 1.2em;
-}
-
-.links-menu a:link {color: white; padding: 18px; text-decoration: none;}
-.links-menu a:visited {color: white; padding: 18px; text-decoration: none;}
-.links-menu a:hover {color: #f7b600; background-color: white; text-decoration: underline; text-decoration: none;}
-
-
-
-.links-jogos a:link {padding: 5px; text-decoration: none; color: black; line-height: 1.5em;}
-.links-jogos a:visited {padding: 5px; text-decoration: none; color: black; line-height: 1.5em;}
-.links-jogos a:hover {text-decoration: underline; color: black; line-height: 1.5em;}
-
-.branco {color: white;}
-
-/* fim formatacao cabecalho */
-
-/* inicio formatacao pagina principal */
-
 .pagina-principal {	
 	width: 960px;
 	padding: 5px;
 	margin: auto;}
+
+/* fim formatacoes gerais */
+
+/* inicio formatacao pagina principal */
 
 .noticias {	
 	padding: 5px;
@@ -69,7 +61,7 @@ a:hover {text-decoration: underline;}
 
 .barra-lateral{	
 	padding: 5px;
-	width: 270px;
+	width: 260px;
 	float: right;}
 
 .data-postagem {
@@ -90,6 +82,10 @@ a:hover {text-decoration: underline;}
 	background-color: white;
 	padding: 10px;}
 
+/* fim formatacao pagina principal */
+
+/* inicio formatacao pagina jogos */
+
 .jogos{
 	border: inset 3px gray;
 	border-radius: 10px;
@@ -97,8 +93,7 @@ a:hover {text-decoration: underline;}
 	padding: 10px;
 	width: 156px;
 	height: 350px;
-	float: left;
-}
+	float: left;}
 
 .opcoes-jogos {
 	border: inset 3px gray;
@@ -111,12 +106,45 @@ a:hover {text-decoration: underline;}
 	float: left;
 	position: relative;
 	left: 0;
-	top: 8px;
-}
+	top: 8px;}
+
+.links-jogos a:link {padding: 5px; text-decoration: none; color: black; line-height: 1.5em;}
+.links-jogos a:visited {padding: 5px; text-decoration: none; color: black; line-height: 1.5em;}
+.links-jogos a:hover {text-decoration: underline; color: black; line-height: 1.5em;}
 
 #vermelho { background-color: #AC0D19; }
 #laranja { background-color: #DC5D00; }
 #azul { background-color:#2193B0; }
 #amarelo { background-color: #DDB100; }
 #verde { background-color: #05531F; }
+
+/* fim formatacao pagina jogos */
+
+/* inicio formatacao pagina tecnologia */
+.noticias-tecnologia {	
+	padding: 5px;
+	width: 600px;	
+	float: left;}
+
+.postagem-tecnologia { 
+	background: white;
+	padding: 5px; 
+	margin-bottom: 20px;
+	border-radius: 10px;
+	height: 518px}
+
+.barra-lateral-tecnologia{	
+	padding: 5px;
+	width: 340px;
+	float: right;
+}
+
+.conteudo-lateral-tecnologia {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;}
+
+.links-tecnologia a:link {color: black; line-height: 1.5em; text-decoration: none; font-weight: bold; font-size: 1.1em}
+.links-tecnologia a:visited {color: black; line-height: 1.5em; text-decoration: none; font-weight: bold; font-size: 1.1em}
+.links-tecnologia a:hover {color: #007BC8;}
 
